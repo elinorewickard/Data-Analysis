@@ -1,6 +1,6 @@
 # Overview
 The data set I am using is from kaggle, it contains the top 200 passwords from 49 countries. It has the columns:
- country_code,country,Rank,Password,User_count,Time_to_crack,Global_rank,Time_to_crack_in_seconds.
+ country_code, country, Rank, Password, User_count, Time_to_crack, Global_rank, Time_to_crack_in_seconds.
 It can be found [here](https://www.kaggle.com/prasertk/top-200-passwords-by-country-2021).
 
 This software was a venture in using pandas for data analysis. It was created as a learning experience and is not perfect.
