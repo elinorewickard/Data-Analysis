@@ -70,7 +70,9 @@ def answerFour(df, dict):
         #grabs top 10 passwords for country
         top = df.loc[(df["country_code"] == country) & (df["Rank"] < 11), "Password"]
         print(f'These are the top 10 passwords for the country {dict[country]}:\n{top.to_string()}')
-
+        
+    else:
+        print(f'{country} is not a country code available in this data.')
 
 def main():
     #dict of countries in the data.csv
